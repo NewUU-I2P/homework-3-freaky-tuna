@@ -9,9 +9,19 @@ using namespace std;
 
 int main() {
     cout << "Problem 1\n";
-    problemSolution1();
+    float waterVolume;
+    cout << "Enter the water record in cubic meters: "
+    cin >> waterVolume;
+    cout << "The total cost is $" << problemSolution1(waterVolume);
+
     cout << "Problem 2\n";
-    problemSolution2();
+    float num1, num2, num3;
+    cout << "Enter three numbers:" << endl;
+    cin >> num1;
+    cin >> num2;
+    cin >> num3;
+    cout<< "The maximum number is " << problemSolution2(num1, num2, num3) << endl;
+
     cout << "Problem 3\n";
     problemSolution3();
     cout << "Problem 4\n";
