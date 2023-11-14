@@ -11,5 +11,6 @@ float problemSolution5(float x, float y, char operation) {
    }else if (operation == '%'){
        result = x % y;
    }
+
    return result;
 }

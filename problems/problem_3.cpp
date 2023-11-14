@@ -19,6 +19,5 @@ std::string problemSolution3(float height, char S) {
             result = "Short";
         }
     }
-
     return result;
 }

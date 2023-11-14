@@ -15,5 +15,6 @@ std::string problemSolution4(const std::string &macAddress) {
             cout << "The " << macAddress << " is multicast." << endl;
         }
     }
+
     return 0;
 }

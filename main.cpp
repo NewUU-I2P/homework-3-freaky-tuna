@@ -49,5 +49,6 @@ int main() {
     cout << "Which arithmetic operation would you want to perform?" << endl;
     cin >> operation;
     cout << x << ' ' << operation << ' ' << y << " = " << problemSolution5(x, y, operation) << endl;
+
     return 0;
 }
