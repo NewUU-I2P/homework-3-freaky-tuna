@@ -11,6 +11,8 @@ float problemSolution1(float consumed_water) {
                 consumed_water -= 10;
                 if (consumed_water > 0){
                     cost += consumed_water*1.5;
+                }else{
+                    cost += consumed_water*1.5;
                 }
             }else{
                 cost += consumed_water*1.4;
