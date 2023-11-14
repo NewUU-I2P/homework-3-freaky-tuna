@@ -15,6 +15,5 @@ void problemSolution1(float consumed_water) {
             }
         }
     }
-
     return cost;
 }
