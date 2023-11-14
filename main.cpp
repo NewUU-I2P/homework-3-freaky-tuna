@@ -24,7 +24,14 @@ int main() {
     cout<< "The maximum number is " << problemSolution2(num1, num2, num3) << endl;
 
     cout << "Problem 3\n";
-    problemSolution3();
+    char G;
+    float height;
+    cout << "Enter your gender: M/F?" << endl;
+    cin >> G;
+    cout << "Enter your height in metres:" << endl;
+    cin >> height;
+    cout << problemSolution3(height, G) << endl;
+
     cout << "Problem 4\n";
     problemSolution4();
     cout << "Problem 5\n";
